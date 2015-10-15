@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     //Declaración de las conexiones con los labels
     @IBOutlet weak var elPais: UILabel!
     @IBOutlet weak var laHamburguesa: UILabel!
-    @IBOutlet var viewFondo: UIView!
     
     //Reacción ante el evento de un toque al botón Quiero 
     @IBAction func quieroHamburguesa(sender: AnyObject) {

@@ -61,7 +61,6 @@
                     <connections>
                         <outlet property="elPais" destination="Teq-Tc-v2J" id="Haf-rP-LXR"/>
                         <outlet property="laHamburguesa" destination="5YL-Ob-hul" id="2Bw-Fz-bbl"/>
-                        <outlet property="viewFondo" destination="8bC-Xf-vdC" id="djP-hA-28A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
