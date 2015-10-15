@@ -16,11 +16,17 @@ class ViewController: UIViewController {
     //Declaración de las conexiones con los labels
     @IBOutlet weak var elPais: UILabel!
     @IBOutlet weak var laHamburguesa: UILabel!
+    @IBOutlet var viewFondo: UIView!
     
-    
+    //Reacción ante el evento de un toque al botón Quiero 
     @IBAction func quieroHamburguesa(sender: AnyObject) {
         elPais.text = "País: \(paises.obtenPais())"
         laHamburguesa.text = "Hamburguesa: \(hamburguesas.obtenHamburguesa())"
+        let rojo : CGFloat = CGFloat( Double(arc4random()) % 256 / 256.0 );
+        let azul : CGFloat = CGFloat( Double(arc4random()) % 256 / 256.0 );
+        let verde : CGFloat = CGFloat( Double(arc4random()) % 256 / 256.0 );
+        let colorAleatorio = UIColor(red: rojo, green: verde, blue: azul, alpha: 1)
+        view.backgroundColor = colorAleatorio
     }
     
     

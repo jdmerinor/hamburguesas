@@ -290,6 +290,7 @@
 				6973EA6B1BCEB91E003C57D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
